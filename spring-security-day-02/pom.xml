@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>spring-security-day-01</artifactId>
+    <artifactId>spring-security-day-02</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>spring-security-day-01 Maven Webapp</name>
+    <name>spring-security-day-02 Maven Webapp</name>
     <url>http://www.example.com</url>
 
     <properties>
@@ -84,7 +84,7 @@
     </dependencies>
 
     <build>
-        <finalName>spring-security-day-01</finalName>
+        <finalName>spring-security-day-02</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
