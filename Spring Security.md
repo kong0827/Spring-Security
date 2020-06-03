@@ -239,3 +239,47 @@
 
 - 将数据和当前线程进行绑定，必须是多例，否则绑定是同一对象会出现线程安全问题。
 - TreadLocal中含有ThreadLocalMap，类似于Map，可以存取
+
+
+
+
+
+### 源码解析
+
+![1591192400059](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591192400059.png)
+
+![1591192482854](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591192482854.png)
+
+![1591192682751](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591192682751.png)
+
+![1591192775683](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591192775683.png)
+
+![1591192852871](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591192852871.png)
+
+![1591193213701](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591193213701.png)
+
+![1591193582316](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591193582316.png)
+
+![1591193672379](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591193672379.png)
+
+![1591193702363](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591193702363.png)
+
+![1591193782810](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591193782810.png)
+
+![1591193897819](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591193897819.png)
+
+![1591194094316](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591194094316.png)
+
+![1591194205395](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591194205395.png)
+
+![1591194403996](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591194403996.png)
+
+![1591194476764](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591194476764.png)
+
+![1591194511132](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591194511132.png)
+
+![1591194657341](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591194657341.png)
+
+![1591194693205](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591194693205.png)
+
+![1591194864731](E:\github_resp\Spring-Security\spring-security-day-02\src\main\resources\img\1591194864731.png)
